@@ -9,7 +9,7 @@ public class ForLoop {
 		int n = sc.nextInt();
 		for (int i = 1; i < 11; i++) {
 			System.out.println(n + "x" + i + "=" + (n * i));
-
 		}
+		sc.close();
 	}
 }
